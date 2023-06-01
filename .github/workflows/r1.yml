@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Run Issue Digest Action
-        uses: Eclipse-Dominator/Github_Digest@v0.1.5a-alpha
+        uses: Eclipse-Dominator/Github_Digest@v0.1.6-alpha
         with:
           repo: "Eclipse-Dominator/Github_digest_Beta"
-          save: "test/"
+          timezone: "Singapore"
