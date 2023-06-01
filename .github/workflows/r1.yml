@@ -13,5 +13,5 @@ jobs:
       - name: Run Issue Digest Action
         uses: Eclipse-Dominator/Github_Digest@v0.1.5a-alpha
         with:
-          repo: "Eclipse-Dominator/Github_Digest"
-          save: "test/test/"
+          repo: "Eclipse-Dominator/Github_digest_Beta"
+          save: "test/"
