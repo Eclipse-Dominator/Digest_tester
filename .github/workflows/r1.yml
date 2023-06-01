@@ -1,0 +1,17 @@
+name: Issue Digest
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs once at 00:00 daily
+  workflow_dispatch:
+
+jobs:
+  issue-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run Issue Digest Action
+        uses: Eclipse-Dominator/Github_Digest@v0.1.5-alpha
+        with:
+          repo: "Eclipse-Dominator/Github_Digest"
+          save: "test/test/"
