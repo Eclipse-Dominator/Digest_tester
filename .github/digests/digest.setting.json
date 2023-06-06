@@ -1,6 +1,4 @@
 {
-    "target_repo": "Eclipse-Dominator/Github_digest_Beta",
-    "my_repo": "Eclipse-Dominator/Digest_tester",
-    "target_issue": "I_kwDOJmntRs5np0li",
-    "ignore_list": []
+    "digest_issue": "I_kwDOJmntRs5n4sJN",
+    "ignored_issues": []
 }
