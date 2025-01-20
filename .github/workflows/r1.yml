@@ -13,5 +13,5 @@ jobs:
       - name: Run Issue Digest Action
         uses: Eclipse-Dominator/Github_Digest@master
         with:
-          repo: "Eclipse-Dominator/Github_digest_Beta"
+          repo: "nus-oss/GithubDigest"
           timezone: "Singapore"
